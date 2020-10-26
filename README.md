@@ -18,6 +18,6 @@ Process:
   *  Go back to the external airtable
   *  Hit the filter tab, select by ‘review’
   *  For each flagged ID, filter by review and remove from the list if: if they have only done one review (and not manually flagged for attention on the slack channel), if they have shown improvement in a subsequent review.
+* Search your email for 'review cancelled' and append 'Cancellations: <cancellation_count> to the 'General' rubric.
 * Create a post in the Slack channel.
 * Paste the report and format it nicely.
-
