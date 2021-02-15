@@ -4,8 +4,8 @@ from datetime import datetime
 import pandas as pd
 import numpy as np
 
-start_date = datetime.strptime("28/09/2020", "%d/%m/%Y")
-end_date = datetime.strptime("12/10/2020", "%d/%m/%Y") #excl end date
+start_date = datetime.strptime("01/02/2020", "%d/%m/%Y")
+end_date = datetime.strptime("15/02/2021", "%d/%m/%Y") #excl end date
  
 data = pd.read_csv("trends.csv")
 data = data.drop(["# workdays since review","Screen Recording URL", "Screen recording", "General feedback",

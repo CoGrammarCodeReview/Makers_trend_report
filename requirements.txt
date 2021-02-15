@@ -3,5 +3,4 @@ pandas
 python-dateutil
 pytz
 six
-pip
 
